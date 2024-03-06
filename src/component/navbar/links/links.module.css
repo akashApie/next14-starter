@@ -1,0 +1,10 @@
+.link{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.logout{
+    margin-right: 20px;
+}
