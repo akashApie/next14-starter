@@ -24,7 +24,7 @@ const links=[
 ];
 
 const Links = () => {
-    const {open,setOpen}=useState(false);
+    const [open,setOpen]=useState(false);
 
     const session=true;
     const isAdmin=true;
@@ -47,13 +47,13 @@ const Links = () => {
                 <NavbarLinks items={{title:"Login", path:"/login"}}/>
             )}
         </div>
-        <button onClick={()=>setOpen((prevs)=>!prevs)}>Menu</button>
+        <button onClick={()=>setOpen(!open)} className={style.menu}>Menu</button>
             {
                 open && (
-                    <div className={style.mobilelink}>
+                    <div className={style.mobileLinks}>
                         {
                             links.map((link=>(
-                                <NavbarLinks items={{link}} key={link.title}/>
+                                <NavbarLinks items={link} key={link.title}/>
                             )))
                         }
                     </div>

@@ -1,0 +1,28 @@
+.container{
+    height:850px;
+    display: flex;
+    padding: 110px 30px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 80px;
+}
+
+.imgContainer{
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+.desc{
+    width: 300px;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.userdetail{
+    padding-left: 15px;
+    font-size: small;
+}

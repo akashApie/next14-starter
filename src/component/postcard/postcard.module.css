@@ -1,0 +1,39 @@
+.upper{
+    display: flex;
+    flex-direction: row;
+    width: 175px;
+}
+
+.imgContainer{
+    position:relative;
+    height: 200px;
+    width:200px
+}
+
+.date{
+    transform: rotate(270deg);
+    margin: 103px 0px 0px 13px ;
+    width: 70px;
+}
+
+.dateTitle{
+    font-size: small;
+}
+
+.bottom{
+    width: 15%;
+}
+
+.title{
+    margin-top: 10px;
+    font-style: 20px;
+    font-weight: 700;
+}
+
+.desc{
+    width: 210px;
+}
+
+.other{
+    text-decoration: line-through;
+}
